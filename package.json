@@ -1,7 +1,7 @@
 {
   "name": "darkdocs-pro",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,8 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "^4.4.1",
-    "@tailwindcss/vite": "^4.1.4",
     "fuse.js": "^7.1.0",
     "lucide-react": "^0.511.0",
     "prismjs": "^1.29.0",
@@ -18,9 +16,15 @@
     "react-dom": "^18.3.1",
     "react-markdown": "^10.1.0",
     "remark-gfm": "^4.0.1",
-    "tailwindcss": "^4.1.4",
+    "tailwindcss": "^4.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "@types/prismjs": "^1.26.3",
+    "@types/react": "^18.3.21",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.4.1",
     "typescript": "^5.8.3",
     "vite": "^6.3.5"
-  },
-  "devDependencies": {}
+  }
 }
