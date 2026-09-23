@@ -1,7 +1,7 @@
 {
   "name": "darkdocs-pro",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -19,6 +19,7 @@
     "tailwindcss": "^4.1.4"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.1.4",
     "@types/node": "^22.15.21",
     "@types/prismjs": "^1.26.3",
     "@types/react": "^18.3.21",
